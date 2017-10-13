@@ -1,0 +1,24 @@
+{
+  "name": "ts-shapes-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"concurrently \" tsc --watch script.ts\" \"sass --watch styles.scss:styles.css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayMoh23/ts-shapes-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JayMoh23/ts-shapes-lab/issues"
+  },
+  "homepage": "https://github.com/JayMoh23/ts-shapes-lab#readme",
+  "dependencies": {
+    "concurrently": "^3.5.0"
+  }
+}
